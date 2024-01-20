@@ -22,7 +22,7 @@ Simple GUI that shows recent "scandalous" headlines, summarizes news, and inform
    cd FakeNewsFinder/
    python -m venv env
    source env/bin/activate
-   pip install -r requirements.txt
+   pip install -r files/requirements.txt
    deactivate
    ```
 
@@ -32,7 +32,7 @@ Simple GUI that shows recent "scandalous" headlines, summarizes news, and inform
    cd FakeNewsFinder/
    python3 -m venv env
    source env/bin/activate
-   pip install -r requirements.txt
+   pip install -r files/requirements.txt
    deactivate
    ```
 
