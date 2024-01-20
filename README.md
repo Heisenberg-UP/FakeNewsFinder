@@ -15,6 +15,8 @@ Simple GUI that shows recent "scandalous" headlines, summarizes news, and inform
 
 **Install Guide:**
 1. Run the following command:
+
+   Windows/Linux:
    ```bash
    git clone https://github.com/Heisenberg-UP/FakeNewsFinder
    cd FakeNewsFinder/
@@ -24,7 +26,17 @@ Simple GUI that shows recent "scandalous" headlines, summarizes news, and inform
    deactivate
    ```
 
-2. Test install by running the following command:
+   Mac:
+   ```bash
+   git clone https://github.com/Heisenberg-UP/FakeNewsFinder
+   cd FakeNewsFinder/
+   python3 -m venv env
+   source env/bin/activate
+   pip install -r requirements.txt
+   deactivate
+   ```
+
+3. Test install by running the following command:
    ```bash
    bash run.sh
    ```
