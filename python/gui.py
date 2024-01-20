@@ -37,7 +37,7 @@ def Article_Format(event):  # Set-Up New window for Article to read
 
 
 # Uploading File from Fake News Scraper file
-NEWS = pd.read_csv('NEWS.csv', encoding='utf-8') # Reads .csf file
+NEWS = pd.read_csv('csv/NEWS.csv', encoding='utf-8') # Reads .csf file
 df = pd.DataFrame(NEWS, columns=['Statement', 'Link', 'Date', 'Source', 'Label']) # Sparses file into columns
 pd.set_option('display.max_columns', None) # Displays all of the columns
 
