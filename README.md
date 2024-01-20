@@ -26,7 +26,7 @@ Simple GUI that shows recent "scandalous" headlines, summarizes news, and inform
    deactivate
    ```
 
-   Mac:
+   Apple:
    ```bash
    git clone https://github.com/Heisenberg-UP/FakeNewsFinder
    cd FakeNewsFinder/
