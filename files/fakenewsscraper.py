@@ -21,9 +21,7 @@ with open(FILENAME, "w", encoding='utf-8', newline='') as csvfile:
     csv_writer.writerow(['Statement', 'Link', 'Date', 'Source', 'Label'])
 
     for page in range(1, PAGES_TO_GET + 1):
-        print('processing page:', page)
         url = 'https://www.politifact.com/factchecks/list/?page=' + str(page)
-        print(url)
 
         # Use try-except block to handle exceptions
         try:
