@@ -9,7 +9,7 @@ import os
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0;Win64) AppleWebkit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36'}
 PAGES_TO_GET = 1
-FILENAME = os.path.join("files", "NEWS.csv")
+FILENAME = os.join.path("files", "NEWS.csv")
 
 # Initialize an empty list to store the scraped data
 upperframe = []
