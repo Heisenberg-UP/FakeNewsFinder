@@ -2,7 +2,6 @@
 import PySimpleGUI as sg
 import pandas as pd
 import requests
-import os
 from bs4 import BeautifulSoup
 
 
@@ -38,7 +37,7 @@ def Article_Format(event):  # Set-Up New window for Article to read
 
 
 # Uploading File from Fake News Scraper file
-file_path = os.path.join("files", "NEWS.csv")
+file_path = "NEWS.csv"
 NEWS = pd.read_csv(file_path, encoding='utf-8') # Reads .csf file
 df = pd.DataFrame(NEWS, columns=['Statement', 'Link', 'Date', 'Source', 'Label']) # Sparses file into columns
 pd.set_option('display.max_columns', None) # Displays all of the columns
