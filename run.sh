@@ -1,7 +1,11 @@
 source env/bin/activate # Activates virtual environment
 
-python files/fakenewsscraper.py & python files/gui.py # Runs necessary python files
+cd files/ # Move into directory with python files
 
-rm files/NEWS.csv # Removes NEW.csv data when program is stopped
+python fakenewsscraper.py & python gui.py # Runs necessary python files
+
+rm NEWS.csv # Removes NEW.csv data when program is stopped
+
+cd .. # Move out of files directory
 
 deactivate # Deactivates vitual environment
